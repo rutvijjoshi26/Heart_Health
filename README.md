@@ -2,6 +2,24 @@
 
 This project is a software application that uses deep learning to diagnose cardiovascular and pulmonary diseases. It employs the YOLOv6 object detection algorithm for image processing. The application has a FastAPI backend and a React.js frontend, with MongoDB as the database. The application is containerized using Docker and deployed on Microsoft Azure.
 
+
+The application supports the diagnosis of the following cardiovascular and pulmonary diseases:
+
+0 - Aortic enlargement<br />
+1 - Atelectasis<br />
+2 - Calcification<br />
+3 - Cardiomegaly<br />
+4 - Consolidation<br />
+5 - ILD<br />
+6 - Infiltration<br />
+7 - Lung Opacity<br />
+8 - Nodule/Mass<br />
+9 - Other lesion<br />
+10 - Pleural effusion<br />
+11 - Pleural thickening<br />
+12 - Pneumothorax<br />
+13 - Pulmonary fibrosis
+
 ## Installation
 To run this project, you need to have Docker and Docker Compose installed on your machine. You can download and install them from the official Docker website.
 
