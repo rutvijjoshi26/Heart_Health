@@ -6,9 +6,9 @@ fastapi-jwt-auth[asymmetric]
 reportlab
 matplotlib>=3.2.2
 pandas
-numpy>=1.18.5
+numpy>=1.22.2
 opencv-python>=4.1.1
-Pillow>=7.1.2
+Pillow>=10.2.0
 psutil  # system resources
 PyYAML>=5.3.1
 requests>=2.23.0
@@ -19,3 +19,7 @@ torchvision
 tqdm
 seaborn
 
+dnspython>=2.6.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
