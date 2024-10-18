@@ -19,3 +19,4 @@ torchvision
 tqdm
 seaborn
 
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
